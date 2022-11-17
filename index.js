@@ -1,7 +1,7 @@
-// TODO: Import `maths.js`
 const maths = require('./maths.js')
 
-console.log(maths.sum(2, 4))
+const operation = process.argv[2]
+console.log(operation)
 
 // TODO: Capture the values passed from the command line into these three variables: `operation`, `numOne` and `numTwo`
 
