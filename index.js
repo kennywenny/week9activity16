@@ -9,6 +9,12 @@ if (operation === 'sum') {
 } else if (operation === 'difference') {
   const result = maths.difference(firstNumber, secondNumber)
   console.log(result)
+} else if (operation === 'product') {
+  const result = maths.product(firstNumber, secondNumber)
+  console.log(result)
+} else if (operation === 'quotient') {
+  const result = maths.quotient(firstNumber, secondNumber)
+  console.log(result)
 }
 
 
