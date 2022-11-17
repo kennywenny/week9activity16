@@ -6,6 +6,9 @@ const secondNumber = parseInt(process.argv[4])
 if (operation === 'sum') {
   const result = maths.sum(firstNumber, secondNumber)
   console.log(result)
+} else if (operation === 'difference') {
+  const result = maths.difference(firstNumber, secondNumber)
+  console.log(result)
 }
 
 
