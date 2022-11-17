@@ -1,11 +1,12 @@
 const maths = require('./maths.js')
 
 const operation = process.argv[2]
-const firstNumber = process.argv[3]
-const secondNumber = process.argv[4]
-console.log(operation)
-console.log(firstNumber)
-console.log(secondNumber)
+const firstNumber = parseInt(process.argv[3])
+const secondNumber = parseInt(process.argv[4])
+if (operation === 'sum') {
+  const result = maths.sum(firstNumber, secondNumber)
+  console.log(result)
+}
 
 
 // TODO: Capture the values passed from the command line into these three variables: `operation`, `numOne` and `numTwo`
